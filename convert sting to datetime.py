@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-kpi_workbook = pd.read_excel(r'D:\Maintenance\Bloc 6\PROJECT KPI\test.xlsx', sheet_name="Sheet1", engine='openpyxl')
+kpi_workbook = pd.read_excel(r'D:\Maintenance\Bloc 6\PROJECT KPI\test.xlsx', sheet_name="Sheet1")
 
 for cell in kpi_workbook["date"]:
     data_type = type(cell)
